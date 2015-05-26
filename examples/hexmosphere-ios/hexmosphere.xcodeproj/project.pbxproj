@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADF49DA41B14090C002F0748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DA31B14090C002F0748 /* AppDelegate.swift */; };
+		ADF49DA61B14090C002F0748 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADF49DA51B14090C002F0748 /* GameScene.sks */; };
+		ADF49DA81B14090C002F0748 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DA71B14090C002F0748 /* GameScene.swift */; };
+		ADF49DAA1B14090C002F0748 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DA91B14090C002F0748 /* GameViewController.swift */; };
+		ADF49DAD1B14090C002F0748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF49DAB1B14090C002F0748 /* Main.storyboard */; };
+		ADF49DAF1B14090C002F0748 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF49DAE1B14090C002F0748 /* Images.xcassets */; };
+		ADF49DB21B14090C002F0748 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF49DB01B14090C002F0748 /* LaunchScreen.xib */; };
+		ADF49DBE1B14090C002F0748 /* hexmosphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DBD1B14090C002F0748 /* hexmosphereTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADF49DB81B14090C002F0748 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADF49D961B14090C002F0748 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADF49D9D1B14090C002F0748;
+			remoteInfo = hexmosphere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADF49D9E1B14090C002F0748 /* hexmosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hexmosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF49DA21B14090C002F0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF49DA31B14090C002F0748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADF49DA51B14090C002F0748 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		ADF49DA71B14090C002F0748 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		ADF49DA91B14090C002F0748 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		ADF49DAC1B14090C002F0748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADF49DAE1B14090C002F0748 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADF49DB11B14090C002F0748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADF49DB71B14090C002F0748 /* hexmosphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hexmosphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF49DBC1B14090C002F0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADF49DBD1B14090C002F0748 /* hexmosphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexmosphereTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADF49D9B1B14090C002F0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF49DB41B14090C002F0748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADF49D951B14090C002F0748 = {
+			isa = PBXGroup;
+			children = (
+				ADF49DA01B14090C002F0748 /* hexmosphere */,
+				ADF49DBA1B14090C002F0748 /* hexmosphereTests */,
+				ADF49D9F1B14090C002F0748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADF49D9F1B14090C002F0748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADF49D9E1B14090C002F0748 /* hexmosphere.app */,
+				ADF49DB71B14090C002F0748 /* hexmosphereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADF49DA01B14090C002F0748 /* hexmosphere */ = {
+			isa = PBXGroup;
+			children = (
+				ADF49DA31B14090C002F0748 /* AppDelegate.swift */,
+				ADF49DA51B14090C002F0748 /* GameScene.sks */,
+				ADF49DA71B14090C002F0748 /* GameScene.swift */,
+				ADF49DA91B14090C002F0748 /* GameViewController.swift */,
+				ADF49DAB1B14090C002F0748 /* Main.storyboard */,
+				ADF49DAE1B14090C002F0748 /* Images.xcassets */,
+				ADF49DB01B14090C002F0748 /* LaunchScreen.xib */,
+				ADF49DA11B14090C002F0748 /* Supporting Files */,
+			);
+			path = hexmosphere;
+			sourceTree = "<group>";
+		};
+		ADF49DA11B14090C002F0748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF49DA21B14090C002F0748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADF49DBA1B14090C002F0748 /* hexmosphereTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADF49DBD1B14090C002F0748 /* hexmosphereTests.swift */,
+				ADF49DBB1B14090C002F0748 /* Supporting Files */,
+			);
+			path = hexmosphereTests;
+			sourceTree = "<group>";
+		};
+		ADF49DBB1B14090C002F0748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADF49DBC1B14090C002F0748 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADF49D9D1B14090C002F0748 /* hexmosphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF49DC11B14090C002F0748 /* Build configuration list for PBXNativeTarget "hexmosphere" */;
+			buildPhases = (
+				ADF49D9A1B14090C002F0748 /* Sources */,
+				ADF49D9B1B14090C002F0748 /* Frameworks */,
+				ADF49D9C1B14090C002F0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hexmosphere;
+			productName = hexmosphere;
+			productReference = ADF49D9E1B14090C002F0748 /* hexmosphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADF49DB61B14090C002F0748 /* hexmosphereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADF49DC41B14090C002F0748 /* Build configuration list for PBXNativeTarget "hexmosphereTests" */;
+			buildPhases = (
+				ADF49DB31B14090C002F0748 /* Sources */,
+				ADF49DB41B14090C002F0748 /* Frameworks */,
+				ADF49DB51B14090C002F0748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF49DB91B14090C002F0748 /* PBXTargetDependency */,
+			);
+			name = hexmosphereTests;
+			productName = hexmosphereTests;
+			productReference = ADF49DB71B14090C002F0748 /* hexmosphereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADF49D961B14090C002F0748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "David Van Duzer";
+				TargetAttributes = {
+					ADF49D9D1B14090C002F0748 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ADF49DB61B14090C002F0748 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ADF49D9D1B14090C002F0748;
+					};
+				};
+			};
+			buildConfigurationList = ADF49D991B14090C002F0748 /* Build configuration list for PBXProject "hexmosphere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADF49D951B14090C002F0748;
+			productRefGroup = ADF49D9F1B14090C002F0748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADF49D9D1B14090C002F0748 /* hexmosphere */,
+				ADF49DB61B14090C002F0748 /* hexmosphereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADF49D9C1B14090C002F0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF49DB21B14090C002F0748 /* LaunchScreen.xib in Resources */,
+				ADF49DAF1B14090C002F0748 /* Images.xcassets in Resources */,
+				ADF49DA61B14090C002F0748 /* GameScene.sks in Resources */,
+				ADF49DAD1B14090C002F0748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF49DB51B14090C002F0748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADF49D9A1B14090C002F0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF49DA81B14090C002F0748 /* GameScene.swift in Sources */,
+				ADF49DAA1B14090C002F0748 /* GameViewController.swift in Sources */,
+				ADF49DA41B14090C002F0748 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADF49DB31B14090C002F0748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF49DBE1B14090C002F0748 /* hexmosphereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF49DB91B14090C002F0748 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADF49D9D1B14090C002F0748 /* hexmosphere */;
+			targetProxy = ADF49DB81B14090C002F0748 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADF49DAB1B14090C002F0748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF49DAC1B14090C002F0748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADF49DB01B14090C002F0748 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADF49DB11B14090C002F0748 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADF49DBF1B14090C002F0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADF49DC01B14090C002F0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADF49DC21B14090C002F0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hexmosphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADF49DC31B14090C002F0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hexmosphere/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADF49DC51B14090C002F0748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hexmosphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hexmosphere.app/hexmosphere";
+			};
+			name = Debug;
+		};
+		ADF49DC61B14090C002F0748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hexmosphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hexmosphere.app/hexmosphere";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADF49D991B14090C002F0748 /* Build configuration list for PBXProject "hexmosphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF49DBF1B14090C002F0748 /* Debug */,
+				ADF49DC01B14090C002F0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADF49DC11B14090C002F0748 /* Build configuration list for PBXNativeTarget "hexmosphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF49DC21B14090C002F0748 /* Debug */,
+				ADF49DC31B14090C002F0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADF49DC41B14090C002F0748 /* Build configuration list for PBXNativeTarget "hexmosphereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADF49DC51B14090C002F0748 /* Debug */,
+				ADF49DC61B14090C002F0748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADF49D961B14090C002F0748 /* Project object */;
+}

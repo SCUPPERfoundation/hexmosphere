@@ -1,0 +1,3 @@
+[submodule "examples/hexmosphere-ios/das-quadrat"]
+	path = examples/hexmosphere-ios/das-quadrat
+	url = git@github.com:Constantine-Fry/das-quadrat.git
