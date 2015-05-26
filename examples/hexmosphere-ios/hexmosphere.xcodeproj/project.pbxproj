@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC0D1ED1B140C5000FC5EDE /* QuadratTouch.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = ADC0D1E91B140BEA00FC5EDE /* QuadratTouch.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ADF49DA41B14090C002F0748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DA31B14090C002F0748 /* AppDelegate.swift */; };
 		ADF49DA61B14090C002F0748 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADF49DA51B14090C002F0748 /* GameScene.sks */; };
 		ADF49DA81B14090C002F0748 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49DA71B14090C002F0748 /* GameScene.swift */; };
@@ -18,6 +19,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		ADC0D1E61B140BEA00FC5EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 476B70891A0EBAE700AFAC33;
+			remoteInfo = Quadrat;
+		};
+		ADC0D1E81B140BEA00FC5EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 476B70DA1A0EBBA500AFAC33;
+			remoteInfo = QuadratTouch;
+		};
+		ADC0D1EA1B140C1600FC5EDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 476B70D91A0EBBA500AFAC33;
+			remoteInfo = QuadratTouch;
+		};
 		ADF49DB81B14090C002F0748 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = ADF49D961B14090C002F0748 /* Project object */;
@@ -27,7 +49,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		ADC0D1EC1B140C2900FC5EDE /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ADC0D1ED1B140C5000FC5EDE /* QuadratTouch.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quadrat.xcodeproj; path = "das-quadrat/Source/Quadrat.xcodeproj"; sourceTree = "<group>"; };
 		ADF49D9E1B14090C002F0748 /* hexmosphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hexmosphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF49DA21B14090C002F0748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADF49DA31B14090C002F0748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -60,12 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ADC0D1E21B140BEA00FC5EDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC0D1E71B140BEA00FC5EDE /* Quadrat.framework */,
+				ADC0D1E91B140BEA00FC5EDE /* QuadratTouch.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		ADF49D951B14090C002F0748 = {
 			isa = PBXGroup;
 			children = (
 				ADF49DA01B14090C002F0748 /* hexmosphere */,
 				ADF49DBA1B14090C002F0748 /* hexmosphereTests */,
 				ADF49D9F1B14090C002F0748 /* Products */,
+				ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,10 +175,12 @@
 				ADF49D9A1B14090C002F0748 /* Sources */,
 				ADF49D9B1B14090C002F0748 /* Frameworks */,
 				ADF49D9C1B14090C002F0748 /* Resources */,
+				ADC0D1EC1B140C2900FC5EDE /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				ADC0D1EB1B140C1600FC5EDE /* PBXTargetDependency */,
 			);
 			name = hexmosphere;
 			productName = hexmosphere;
@@ -185,6 +234,12 @@
 			mainGroup = ADF49D951B14090C002F0748;
 			productRefGroup = ADF49D9F1B14090C002F0748 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ADC0D1E21B140BEA00FC5EDE /* Products */;
+					ProjectRef = ADC0D1E11B140BEA00FC5EDE /* Quadrat.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				ADF49D9D1B14090C002F0748 /* hexmosphere */,
@@ -192,6 +247,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ADC0D1E71B140BEA00FC5EDE /* Quadrat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Quadrat.framework;
+			remoteRef = ADC0D1E61B140BEA00FC5EDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ADC0D1E91B140BEA00FC5EDE /* QuadratTouch.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = QuadratTouch.framework;
+			remoteRef = ADC0D1E81B140BEA00FC5EDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		ADF49D9C1B14090C002F0748 /* Resources */ = {
@@ -236,6 +308,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		ADC0D1EB1B140C1600FC5EDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QuadratTouch;
+			targetProxy = ADC0D1EA1B140C1600FC5EDE /* PBXContainerItemProxy */;
+		};
 		ADF49DB91B14090C002F0748 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = ADF49D9D1B14090C002F0748 /* hexmosphere */;
@@ -419,6 +496,7 @@
 				ADF49DC31B14090C002F0748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADF49DC41B14090C002F0748 /* Build configuration list for PBXNativeTarget "hexmosphereTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +505,7 @@
 				ADF49DC61B14090C002F0748 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

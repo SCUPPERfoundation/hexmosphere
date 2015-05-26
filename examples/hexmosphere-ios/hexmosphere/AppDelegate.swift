@@ -8,6 +8,8 @@
 
 import UIKit
 
+import QuadratTouch
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,8 +17,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        let client = Client(clientID:       "I4DTCHJUGI13E45IYVUCOPHWPBPXCBZYVOFJX4OR3D5L4AZD",
+                            clientSecret:   "4T5ALCKZXBTXE5FNBC13SH4P40AVMTRL2IBUS1QB23KMRLKJ",
+                            redirectURL:    "hexmosphere://foursquare")
+        var configuration = Configuration(client:client)
+        configuration.mode = "foursquare"
+        configuration.shouldControllNetworkActivityIndicator = true
+        Session.setupSharedSessionWithConfiguration(configuration)
         return true
+    }
+
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject?) -> Bool {
+        return Session.sharedSession().handleURL(url)
     }
 
     func applicationWillResignActive(application: UIApplication) {
