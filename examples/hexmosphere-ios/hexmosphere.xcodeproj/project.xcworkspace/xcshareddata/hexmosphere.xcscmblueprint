@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E9077E904DD65A4BB7B58FA80F0E623CD6EBDEA2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E9077E904DD65A4BB7B58FA80F0E623CD6EBDEA2" : 0,
+    "C333CCA42B76DAB308C436958D3D72C5B6ACE147" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49E5C2D5-413B-421B-AFAA-4041BB553E2B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E9077E904DD65A4BB7B58FA80F0E623CD6EBDEA2" : "hexmosphere",
+    "C333CCA42B76DAB308C436958D3D72C5B6ACE147" : "hexmosphereexamples\/hexmosphere-ios\/das-quadrat"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hexmosphere",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "examples\/hexmosphere-ios\/hexmosphere.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Constantine-Fry\/das-quadrat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C333CCA42B76DAB308C436958D3D72C5B6ACE147"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SCUPPERfoundation\/hexmosphere.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E9077E904DD65A4BB7B58FA80F0E623CD6EBDEA2"
+    }
+  ]
+}
